@@ -525,3 +525,27 @@ footer hr
         margin-top: 25%;
     }
 }
+
+.img-responsive {
+    height: 15rem;
+}
+
+@media all and (max-width: 768px) {
+    .img-responsive {
+        height: auto;
+    }
+}
+
+.fill-available {
+    width: -webkit-fill-available;
+}
+
+.web-development a {
+    text-align: left;
+    cursor: pointer;
+}
+
+.portfolio-overlay h2 {
+    text-align: left;
+    font-size: 1.5rem;
+}
